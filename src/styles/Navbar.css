@@ -9,7 +9,7 @@
     width: fit-content;
   }
   nav{
-    /* border: 1px solid; */
+    border: 1px solid;
     margin: 20px;
     padding: 5px 5px 25px 5px;
     /* box-shadow: 0 30px 15px 0 rgba(0, 0, 0, 0.5); */
@@ -39,13 +39,13 @@
   /* summary::before {
     content: "";
   } */
-  summary::after {
+  /* summary::after {
     content: "III";
     letter-spacing: -1px;
-  }
-  /* summary:hover {
-    transform: scale(1.1);
   } */
+  summary:hover {
+    transform: scale(1.1);
+  }
   summary::marker {
     font-size: 0;
   }
@@ -55,9 +55,9 @@
   details[open] .menu {
     animation-name: menuAnim;
   }
-  details[open] summary::before {
+  /* details[open] summary::before {
     content: "X";
-  }
+  } */
   details[open] summary::after {
     content: "";
   }
@@ -93,16 +93,16 @@
     filter: brightness(200%);
   }
   details::before {
-    content: "← Click para desplegar";
+    content: "← Click para desplegar el menu";
     /* color: var(--secoColor); */
     position: absolute;
-    margin-left: 40px;
-    padding: 10px 10px;
+    margin-left: 10px;
+    padding: 0px 20px;
     opacity: 0.5;
   }
   details[open]::before {
     /* animation: fadeMe 300ms linear forwards; */
-    content: "← Click para cerrar";
+    content: "← Click para cerrar el menu";
   }
   @keyframes menuAnim {
     0% {
