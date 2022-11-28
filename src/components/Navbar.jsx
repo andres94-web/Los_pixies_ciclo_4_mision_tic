@@ -37,10 +37,10 @@ const Navbar = () => {
     <details>
       <summary></summary>
       <nav className="menu">
-        <a onClick={manejadorHome} href="">Home</a>
-        <a onClick={manejadorProductos} href="">Productos</a>
-        <a onClick={manejadorContacto} href="">Contacto</a>
-        <a onClick={manejadorSesion} href="">Cerrar sesion</a>
+        <a onClick={manejadorHome} href="/home">Home</a>
+        <a onClick={manejadorProductos} href="/productos">Productos</a>
+        <a onClick={manejadorContacto} href="/contacto">Contacto</a>
+        <a onClick={manejadorSesion} href="/login">Cerrar sesion</a>
       </nav>
     </details>
   )
