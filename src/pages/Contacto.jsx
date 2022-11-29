@@ -33,52 +33,52 @@ function Contacto() {
 
   return (
     <>
-      <div class="background">
+      <div className="background">
         <Navbar />
-        <div class="container">
-          <div class="screen">
-            <div class="screen-header">
-              <div class="screen-header-left">
-                <div class="screen-header-button close"></div>
-                <div class="screen-header-button maximize"></div>
-                <div class="screen-header-button minimize"></div>
+        <div className="container">
+          <div className="screen">
+            <div className="screen-header">
+              <div className="screen-header-left">
+                <div className="screen-header-button close"></div>
+                <div className="screen-header-button maximize"></div>
+                <div className="screen-header-button minimize"></div>
               </div>
-              <div class="screen-header-right">
-                <div class="screen-header-ellipsis"></div>
-                <div class="screen-header-ellipsis"></div>
-                <div class="screen-header-ellipsis"></div>
+              <div className="screen-header-right">
+                <div className="screen-header-ellipsis"></div>
+                <div className="screen-header-ellipsis"></div>
+                <div className="screen-header-ellipsis"></div>
               </div>
             </div>
             <form
               action=""
               method="post"
-              class="screen-body"
+              className="screen-body"
               ref={form}
               onSubmit={sendEmail}
             >
-              <div class="screen-body-item left">
-                <div class="app-title">
-                  <span>targeta de</span>
-                  <span>contacto</span>
+              <div className="screen-body-item left">
+                <div className="app-title">
+                  <span>targeta</span>
+                  <span>de contacto</span>
                 </div>
-                <div class="app-contact">Contactarse al: +57 ##########</div>
+                <div className="app-contact">Contactarse al: +57 ##########</div>
               </div>
-              <div class="screen-body-item">
-                <div class="app-form">
-                  <div class="app-form-group">
-                    <input class="app-form-control" name="user_name" placeholder="Nombre" />
+              <div className="screen-body-item">
+                <div className="app-form">
+                  <div className="app-form-group">
+                    <input className="app-form-control" name="user_name" placeholder="Nombre" />
                   </div>
-                  <div class="app-form-group">
+                  <div className="app-form-group">
                     <input
-                      class="app-form-control" name="user_email"
+                      className="app-form-control" name="user_email"
                       placeholder="Correo electronico"
                     />
                   </div>
-                  <div class="app-form-group message">
-                    <input class="app-form-control" placeholder="Mensaje" name="message"/>
+                  <div className="app-form-group message">
+                    <input className="app-form-control" placeholder="Mensaje" name="message"/>
                   </div>
-                  <div class="app-form-group buttons">
-                    <button class="app-form-button">Enviar</button>
+                  <div className="app-form-group buttons">
+                    <button className="app-form-button">Enviar</button>
                   </div>
                 </div>
               </div>

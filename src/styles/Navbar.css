@@ -7,9 +7,9 @@
   }
   details {
     margin: 10px;
-    font-size: 18px;
+    font-size: 22px;
     width: fit-content;
-
+    color: rgb(255, 255, 255);
   }
   nav{
     border: 1px solid;
@@ -22,8 +22,8 @@
     writing-mode: vertical-lr;
     text-align: center;
     padding: 12px 10px;
-    width: 23px;
-    height: 17px;
+    width: 30px;
+    height: 30px;
     background-color: var(--primColor);
     border: 1px solid var(--secoColor);
     border-radius: var(--cornerRad);
@@ -99,7 +99,7 @@
     content: "← Click para desplegar el menu";
     /* color: var(--secoColor); */
     position: absolute;
-    margin-left: 10px;
+    margin-left: 30px;
     padding: 0px 20px;
     opacity: 0.5;
   }
